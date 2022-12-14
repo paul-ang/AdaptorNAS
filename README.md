@@ -28,7 +28,7 @@ Run `python main_search.py --help` for the full list of available arguments.
 An example of designing the optimal decoder for the ResNet-34 encoder with L=2, p=2, n=5.
 
 ```
-python main_search.py --dataset_dir="path_to_the_data" --name="experiment_description" --nas_encoder="resnet34" --nas_layers=2 --nas_max_edges=2 --nas_selection_epochs=5 --batch_size=8 --gpu=1 --fold=1
+python main_search.py --dataset_dir="path_to_the_data" --name="experiment_description" --nas_encoder="resnet34" --nas_layers=2 --nas_max_edges=2 --nas_selection_epochs=5 --batch_size=10 --gpu=1 --fold=1
 ```
 ### MobileNet-V2 encoder
 An example of designing the optimal decoder for the MobileNet-V2 encoder with L=2, p=2, n=5. 
