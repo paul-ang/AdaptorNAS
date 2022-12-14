@@ -22,8 +22,6 @@ An overview of AdaptorNAS:
 The Python script for searching is the `main_search.py`. The script will search
 for the optimal decoder, then train the derived network from scratch. 
 
-Note that the script will also produce a `derived_model.ckpt` file after the search. This file contains the derived model architecture. 
-
 Run `python main_search.py --help` for the full list of available arguments. 
 
 ### ResNet-34 encoder
