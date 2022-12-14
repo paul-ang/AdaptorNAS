@@ -36,7 +36,7 @@ def main():
     args = parser.parse_args()
 
     # Initialize a dummy logger for code compatibility.
-    comet_logger = CometLogger(disabled=True, auto_metric_logging=False)
+    comet_logger = CometLogger(api_key="0", disabled=True, auto_metric_logging=False)
 
     # Comet logger configurations
     comet_logger.experiment.set_name(args.name)
