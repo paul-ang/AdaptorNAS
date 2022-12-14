@@ -1,5 +1,5 @@
 # AdaptorNAS
-This repository is the offical implementation of _AdaptorNAS: A New Perturbation-based Neural Architecture Search for Hyperspectral Image Segmentation_.
+This repository is the official implementation of _AdaptorNAS: A New Perturbation-based Neural Architecture Search for Hyperspectral Image Segmentation_.
 
 An overview of AdaptorNAS:
 
@@ -13,7 +13,7 @@ An overview of AdaptorNAS:
 
 ## Preparing the UOW-HSI dataset
 1. Download the data from https://documents.uow.edu.au/~phung/UOW-HSI.html.
-2. Unzip the downloaded data into a desired location on your computer.
+2. Unzip the downloaded data into the desired location on your computer.
 3. Copy the `./datasets/partition` folder from this repo into the same location.
    This folder contains the image ids for each cross-validation fold.
 
